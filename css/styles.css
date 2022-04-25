@@ -72,6 +72,7 @@ h1{
 .main{
     margin: 30px 0;
     padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 .main .container{
     background-color:#ECECEC;
@@ -80,9 +81,13 @@ h1{
     border-radius:8px;
     box-shadow: 8px 10px 35px rgba(0, 0, 0, 0.29);
 }
+.container p{
+    font-size:22px;
+}
 
 .main .container h1{
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .main .container .container-tasks{
@@ -103,6 +108,17 @@ h1{
     text-transform: uppercase;
 }
 
+.desarrollo{
+    margin: 0 4em 3rem ;
+}
+
+.integrantes{
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom: 1rem;
+}
 
 /*----MAIN----*/
 
