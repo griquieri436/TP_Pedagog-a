@@ -18,7 +18,11 @@ h1{
 .header{
     background-color: #014BA0;
     padding: 1rem 0;
-    box-shadow: 0px .5px 35px black;
+    box-shadow: 0px -10px 35px black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 .header a{
@@ -67,10 +71,52 @@ h1{
 /*----HEADER----*/ 
 .main{
     margin: 30px 0;
+    padding-top: 4rem;
 }
 .main .container{
     background-color:#ECECEC;
     padding:10px 20px;
     border:3px solid rgba(118, 118, 118, 0.166);
     border-radius:8px;
+    box-shadow: 8px 10px 35px rgba(0, 0, 0, 0.29);
+}
+
+.main .container h1{
+    text-align: center;
+}
+
+.main .container .container-tasks{
+    display: flex;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+
+.main .container .container-tasks a img{
+    border-radius:5px;
+    border:3px solid rgba(49, 49, 49, 0.097);
+}
+.main .container .container-tasks a{
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+/*----MAIN----*/
+
+footer{
+    background-color: #014BA0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    ;
+}
+
+footer .container p{
+    color: rgb(242, 242, 242);
+    text-align: center;
+    margin: 6px;
 }
