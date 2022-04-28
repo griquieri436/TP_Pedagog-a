@@ -101,6 +101,13 @@ h1{
     margin-bottom: 20px;
 }
 
+.main .container h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .main .container .container-tasks{
     display: flex;
     justify-content:center;
@@ -129,6 +136,11 @@ h1{
     text-align: center;
     padding-top:3rem;
     padding-bottom: 1rem;
+}
+
+.lista-de-clases li{
+    margin: 1rem 2rem;
+    font-size:20px;
 }
 
 /*----MAIN----*/
